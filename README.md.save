@@ -1,0 +1,17 @@
+cat > README.md << 'EOF'
+# Eco-Brick Market Intelligence
+
+Market analysis of 361 brick manufacturers across Telangana, India, to identify market gaps and optimal locations for an eco-brick venture.
+
+Tools: Python (pandas, scikit-learn), Jupyter, and BI dashboards.
+
+Note: data originates from a Google Maps scrape; this cleaned export is the earliest retained version and serves as the source of record.
+cat > README.md << 'EOF'
+# Eco-Brick Market Intelligence
+
+Market analysis of 361 brick manufacturers across Telangana, India, to identify market gaps and optimal locations for an eco-brick venture.
+
+Tools: Python (pandas, scikit-learn), Jupyter, and BI dashboards.
+
+Note: data originates from a Google Maps scrape; this cleaned export is the earliest retained version and serves as the source of record.
+EOF
