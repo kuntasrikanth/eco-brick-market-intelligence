@@ -1,0 +1,32 @@
+Districts,factory_count,running_count,eco_count,fully_auto_count,closure_count,operational_rate,eco_share,closure_rate
+Adilabad,3,2,3,0,1,66.7,100.0,33.3
+Bhadradri Kothagudem,10,9,9,0,1,90.0,90.0,10.0
+Hanumakonda,22,19,19,2,3,86.4,86.4,13.6
+Hyderabad,30,28,26,13,2,93.3,86.7,6.7
+Jagtial,10,8,6,0,2,80.0,60.0,20.0
+Jangaon,14,13,11,1,1,92.9,78.6,7.1
+Jayashankar Bhupalpally,7,4,6,1,3,57.1,85.7,42.9
+Jogulamba Gadwal,6,4,4,2,2,66.7,66.7,33.3
+Kamareddy,1,1,0,0,0,100.0,0.0,0.0
+Karimnagar,20,20,10,3,0,100.0,50.0,0.0
+Khammam,11,8,11,1,3,72.7,100.0,27.3
+Kumuram Bheem Asifabad,11,7,3,1,4,63.6,27.3,36.4
+Mahabubabad,4,2,1,1,2,50.0,25.0,50.0
+Mancherial,16,13,11,3,3,81.2,68.8,18.8
+Medak,7,6,2,0,1,85.7,28.6,14.3
+Medchal Malkajgiri,42,41,32,10,1,97.6,76.2,2.4
+Mulugu,7,4,4,0,3,57.1,57.1,42.9
+Nagarkurnool,6,6,4,3,0,100.0,66.7,0.0
+Nalgonda,13,12,9,2,1,92.3,69.2,7.7
+Narayanpet,7,7,3,2,0,100.0,42.9,0.0
+Nirmal,6,3,3,0,3,50.0,50.0,50.0
+Nizamabad,3,2,1,1,1,66.7,33.3,33.3
+Peddapalli,21,20,7,1,1,95.2,33.3,4.8
+Rajanna Sircilla,5,2,4,1,3,40.0,80.0,60.0
+Ranga Reddy,6,6,5,2,0,100.0,83.3,0.0
+Sangareddy,11,11,2,2,0,100.0,18.2,0.0
+Siddipet,10,10,10,6,0,100.0,100.0,0.0
+Suryapet,9,7,6,2,2,77.8,66.7,22.2
+Wanaparthy,1,1,0,0,0,100.0,0.0,0.0
+Warangal,9,4,6,0,5,44.4,66.7,55.6
+Yadadri Bhuvanagiri,27,23,16,4,4,85.2,59.3,14.8
