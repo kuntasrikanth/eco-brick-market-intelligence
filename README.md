@@ -95,13 +95,3 @@ Clean version: brick_with_risk_scores.csv (355 rows, 24 columns)
 | risk_category | text | Low / Medium / High Risk |
 EOF
 
-git add .
-git commit -m "Phase 10: README overhaul, decisions log, data dictionary, portfolio polish"
-git push
-
-
-
-cat README.md
-git add .
-git commit -m "Phase 10: README overhaul, decisions log, data dictionary, portfolio polish"
-git push
