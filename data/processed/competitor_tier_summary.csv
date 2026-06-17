@@ -1,0 +1,5 @@
+competitor_tier,count,running,eco_count,large_count,has_website,pct_of_market,eco_share,website_share,operational_rate
+Tier 1 — Fully Automatic,64,62,63,54,18,18.0,98.4,28.1,96.9
+Tier 2 — Semi Automatic,76,67,76,15,6,21.4,100.0,7.9,88.2
+Tier 3 — Hand Made,198,169,95,56,22,55.8,48.0,11.1,85.4
+Tier 4 — Unknown,17,5,0,0,1,4.8,0.0,5.9,29.4
