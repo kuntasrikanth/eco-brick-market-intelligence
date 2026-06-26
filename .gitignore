@@ -2,3 +2,11 @@ venv/
 .ipynb_checkpoints/
 .DS_Store
 __pycache__/
+
+# Office temp lock files
+~$*
+
+# Slide render artifacts
+startup/slide-*.jpg
+startup/cmp-*.jpg
+startup/*.pdf
