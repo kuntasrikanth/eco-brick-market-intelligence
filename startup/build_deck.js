@@ -50,8 +50,8 @@ async function main() {
 
   const pres = new pptxgen();
   pres.layout = "LAYOUT_16x9"; // 10 x 5.625
-  pres.author = "TerraBlock";
-  pres.title = "TerraBlock — Investor Presentation";
+  pres.author = "Brick Industries Telangana";
+  pres.title = "Brick Industries Telangana — Investor Presentation";
   const W = 10, H = 5.625;
 
   const shadow = () => ({ type: "outer", color: "000000", blur: 7, offset: 3, angle: 90, opacity: 0.16 });
@@ -85,15 +85,16 @@ async function main() {
     s.addShape(pres.shapes.RECTANGLE, { x: 6.55 + c * 0.62 + (r % 2) * 0.31, y: 3.75 + r * 0.42, w: 0.54, h: 0.34,
       fill: { color: r === 1 && c === 2 ? TERRA : "32281E" }, line: { color: "3D3024", width: 0.5 } });
   }
-  s.addText("TERRABLOCK", { x: 0.6, y: 1.35, w: 8, h: 0.9, fontFace: HFONT, fontSize: 54, bold: true, color: WHITE, charSpacing: 2, margin: 0 });
-  s.addShape(pres.shapes.RECTANGLE, { x: 0.62, y: 2.32, w: 0.55, h: 0.07, fill: { color: TERRA }, line: { type: "none" } });
-  s.addText("Telangana's First Mud Brick Industries", { x: 0.6, y: 2.5, w: 8.6, h: 0.5, fontFace: HFONT, fontSize: 22, italic: true, color: SAND, margin: 0 });
+  s.addText("BRICK INDUSTRIES", { x: 0.6, y: 1.0, w: 9, h: 0.8, fontFace: HFONT, fontSize: 46, bold: true, color: WHITE, charSpacing: 1, margin: 0 });
+  s.addText("TELANGANA", { x: 0.62, y: 1.78, w: 9, h: 0.6, fontFace: HFONT, fontSize: 33, bold: true, color: TERRA, charSpacing: 10, margin: 0 });
+  s.addShape(pres.shapes.RECTANGLE, { x: 0.62, y: 2.45, w: 0.55, h: 0.07, fill: { color: GOLD }, line: { type: "none" } });
+  s.addText("Telangana's First Mud Brick Industries", { x: 0.6, y: 2.6, w: 8.6, h: 0.5, fontFace: HFONT, fontSize: 21, italic: true, color: SAND, margin: 0 });
   s.addText([
     { text: "Compressed Stabilised Earth Blocks (CSEB)", options: { color: GOLD, bold: true } },
     { text: "   ·   Ranga Reddy District   ·   2026", options: { color: "BCAE9C" } },
   ], { x: 0.62, y: 3.15, w: 9, h: 0.4, fontFace: BFONT, fontSize: 14, margin: 0 });
   s.addText("INVESTOR PRESENTATION", { x: 0.62, y: 4.85, w: 6, h: 0.3, fontFace: BFONT, fontSize: 12, bold: true, color: TERRA, charSpacing: 4, margin: 0 });
-  s.addNotes("Good morning, and thank you all for your time. I am the founder of TerraBlock. In the next ten minutes, I will show you a clear gap in the Telangana construction market that nobody is serving today — and how we plan to fill it with a brick that is cheaper to make, greener, and faster to build with. Just one request — please hold your questions till the end, and I will be very happy to take all of them. Let us begin.");
+  s.addNotes("Good morning, and thank you all for your time. I am the founder of Brick Industries Telangana. In the next ten minutes, I will show you a clear gap in the Telangana construction market that nobody is serving today — and how we plan to fill it with a brick that is cheaper to make, greener, and faster to build with. Just one request — please hold your questions till the end, and I will be very happy to take all of them. Let us begin.");
 
   // ===================================================================
   // SLIDE 2 — THE GAP (HOOK)
@@ -118,7 +119,7 @@ async function main() {
     { text: "This is not a demand gap. It is an ", options: {} },
     { text: "empty shelf.", options: { bold: true, color: TERRA } },
   ], { x: 0.6, y: 4.45, w: 8.8, h: 0.5, fontFace: HFONT, fontSize: 20, italic: true, color: DARK2, margin: 0 });
-  source(s, "Source: TerraBlock field survey of 355 brick manufacturers, Telangana (Google Maps, 2025).");
+  source(s, "Source: Brick Industries Telangana field survey of 355 brick manufacturers, Telangana (Google Maps, 2025).");
   pageNo(s, 2);
   s.addNotes("We did not start with an idea — we started with data. We surveyed every single brick factory in Telangana. All 355 of them, across 31 districts. And see what we found. More than half are still hand-made — no machines, no modernisation at all. And the most important number — zero. Not one factory makes machine-made mud interlocking bricks. So please understand, this is not a demand problem. The demand is very much there. It is simply an empty shelf, waiting for someone to stock it. That someone is us.");
 
@@ -277,7 +278,7 @@ async function main() {
       { text: r[1], options: { color: "55493D" } },
     ], { x: 6.45, y, w: 2.85, h: 0.5, fontFace: BFONT, fontSize: 10.8, margin: 0 });
   });
-  source(s, "Source: TerraBlock 7-factor location model (demand, competition, modern gap, eco gap, stability, raw material).");
+  source(s, "Source: Brick Industries Telangana 7-factor location model (demand, competition, modern gap, eco gap, stability, raw material).");
   pageNo(s, 7);
   s.addNotes("Now, where will we build the factory? We did not just pick a place by gut feeling. We built a proper scoring model with seven factors — demand, competition, modernisation gap, eco gap, stability, raw material access — and we ran all 31 districts of Telangana through it. And Ranga Reddy came out as number one, very clearly. Why? 13.4 lakh households — the largest base in the whole state. Only six factories serving all of them — badly under-supplied. Hyderabad is right on the doorstep, where 30 per cent of the state's construction is happening. And from there, by NH-44 and 65, we can reach any district within two hours. So this location decision is fully data-backed.");
 
@@ -315,7 +316,7 @@ async function main() {
     iconCircle(s, m[0], 5.2, y, 0.5, TERRA);
     s.addText(m[1], { x: 5.85, y: y - 0.04, w: 3.65, h: 0.6, fontFace: BFONT, fontSize: 11.5, color: "55493D", valign: "middle", margin: 0 });
   });
-  source(s, "Source: TerraBlock field survey (355 factories). Direct CSEB competitors in Telangana: zero.");
+  source(s, "Source: Brick Industries Telangana field survey (355 factories). Direct CSEB competitors in Telangana: zero.");
   pageNo(s, 8);
   s.addNotes("Let us talk about competition honestly. On the left, you see what the 355 factories actually make — 198 hand-made, 76 semi-automatic, 64 fully-automatic. All of them fly ash or clay. Mud interlocking? Zero. Now, a smart investor will ask — if it is such a good idea, what stops someone from copying you tomorrow? Fair question. Look at the right side. Certification — BIS and IGBC — takes 9 to 12 months to earn. The soil-mix know-how is proprietary and changes from site to site. Builder relationships, once we are specified in their drawings, get locked in. And only 13 per cent of our rivals even have a website. So realistically, we will enjoy an 18-month head start, minimum.");
 
@@ -505,12 +506,12 @@ async function main() {
   s.addText("An empty shelf, a documented demand, and a product the market has never been offered.", { x: 0.62, y: 2.95, w: 8.6, h: 0.5, fontFace: HFONT, fontSize: 15, italic: true, color: SAND, margin: 0 });
   s.addShape(pres.shapes.RECTANGLE, { x: 0.62, y: 3.7, w: 0.55, h: 0.06, fill: { color: TERRA }, line: { type: "none" } });
   s.addText([
-    { text: "TerraBlock", options: { bold: true, color: WHITE } },
+    { text: "Brick Industries Telangana", options: { bold: true, color: WHITE } },
     { text: "   ·   Ranga Reddy, Telangana   ·   Let's talk.", options: { color: "BCAE9C" } },
   ], { x: 0.62, y: 3.9, w: 9, h: 0.4, fontFace: BFONT, fontSize: 14, margin: 0 });
   s.addNotes("Let me leave you with one simple picture. An empty shelf. A demand that is documented, not assumed. And a product that this market has never even been offered before. That combination does not come often. We would be truly delighted to have you build this with us, right from the ground floor. Thank you so much for your time and patience — and now I will be very happy to take all your questions. (Pause. Smile. Invite questions.)");
 
-  await pres.writeFile({ fileName: "TerraBlock_Investor_Presentation.pptx" });
+  await pres.writeFile({ fileName: "Brick_Industries_Telangana_Investor_Presentation.pptx" });
   console.log("done");
 }
 main().catch(e => { console.error(e); process.exit(1); });

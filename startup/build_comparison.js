@@ -25,7 +25,7 @@ async function main(){
   };
   const I={}; for(const k in need) I[k]=await png(need[k][0],need[k][1],256);
 
-  const pres=new pptxgen(); pres.layout="LAYOUT_16x9"; pres.author="TerraBlock";
+  const pres=new pptxgen(); pres.layout="LAYOUT_16x9"; pres.author="Brick Industries Telangana";
   pres.title="Mud Interlocking Brick — The Honest Comparison";
   const W=10,H=5.625;
   const shadow=()=>({type:"outer",color:"000000",blur:7,offset:3,angle:90,opacity:0.16});
@@ -42,7 +42,7 @@ async function main(){
   s.addShape(pres.shapes.RECTANGLE,{x:0.62,y:2.28,w:0.55,h:0.07,fill:{color:GREEN},line:{type:"none"}});
   s.addText("The honest comparison — pros, cons & real cost savings",{x:0.6,y:2.45,w:8.6,h:0.5,fontFace:HFONT,fontSize:21,italic:true,color:SAND,margin:0});
   s.addText([{text:"Compressed Stabilised Earth Block (CSEB)",options:{color:GOLD,bold:true}},{text:"   ·   evidence-based   ·   sources cited",options:{color:"BCAE9C"}}],{x:0.62,y:3.15,w:9,h:0.4,fontFace:BFONT,fontSize:14,margin:0});
-  s.addText("TERRABLOCK  ·  TELANGANA",{x:0.62,y:4.85,w:6,h:0.3,fontFace:BFONT,fontSize:12,bold:true,color:GREEN,charSpacing:3,margin:0});
+  s.addText("BRICK INDUSTRIES TELANGANA",{x:0.62,y:4.85,w:7,h:0.3,fontFace:BFONT,fontSize:12,bold:true,color:GREEN,charSpacing:2,margin:0});
 
   // ============ SLIDE 2 — BIG PICTURE ============
   s=pres.addSlide(); s.background={color:WHITE};

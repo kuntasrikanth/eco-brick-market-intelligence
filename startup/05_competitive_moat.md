@@ -1,4 +1,4 @@
-# Competitive Moat Analysis — TerraBlock
+# Competitive Moat Analysis — Brick Industries Telangana
 ### Why We Win and How We Stay Ahead
 
 ---

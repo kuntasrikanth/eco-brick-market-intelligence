@@ -1,4 +1,4 @@
-# TerraBlock — Startup Package Index
+# Brick Industries Telangana — Startup Package Index
 ### Mud Interlocking Brick Factory | Telangana | 2026
 
 ---
@@ -17,7 +17,7 @@
 
 ## The One-Paragraph Summary
 
-TerraBlock will build Telangana's first fully-machined mud interlocking brick factory in Ranga Reddy district — the state's #1 underserved market by our scoring model. Our product (Compressed Stabilized Earth Block) has zero direct competitors in 355 factories analyzed, costs 40% less to produce than fly ash bricks, and saves builders 25–30% on construction labour through its interlocking design. We need ₹75 lakh to reach first production, break even by Month 16, and generate ₹147 lakh revenue in Year 2 at ~21% net margin (₹293 lakh / ₹75 lakh net by Year 3).
+Brick Industries Telangana will build Telangana's first fully-machined mud interlocking brick factory in Ranga Reddy district — the state's #1 underserved market by our scoring model. Our product (Compressed Stabilized Earth Block) has zero direct competitors in 355 factories analyzed, costs 40% less to produce than fly ash bricks, and saves builders 25–30% on construction labour through its interlocking design. We need ₹75 lakh to reach first production, break even by Month 16, and generate ₹147 lakh revenue in Year 2 at ~21% net margin (₹293 lakh / ₹75 lakh net by Year 3).
 
 ---
 

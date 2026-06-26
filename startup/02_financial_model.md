@@ -1,4 +1,4 @@
-# Financial Model — TerraBlock Mud Interlocking Brick Factory
+# Financial Model — Brick Industries Telangana Mud Interlocking Brick Factory
 ### 3-Year Projection | Telangana | 2026–2028
 
 > **Basis:** Product is the **Compressed Stabilised Earth Block (CSEB)**, 300 × 150 × 90 mm — one block replaces ~2 conventional bricks plus mortar.

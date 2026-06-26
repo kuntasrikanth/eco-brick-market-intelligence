@@ -39,7 +39,8 @@ const svg = `<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http
 <rect width="1080" height="1350" fill="${BG}"/>
 
 ${emblem(116,110,38)}
-<text x="172" y="123" font-family="${F}" font-size="40" font-weight="800" letter-spacing="4" fill="${CREAM}">TERRABLOCK</text>
+<text x="172" y="102" font-family="${F}" font-size="33" font-weight="800" letter-spacing="1.5" fill="${CREAM}">BRICK INDUSTRIES</text>
+<text x="173" y="136" font-family="${F}" font-size="25" font-weight="800" letter-spacing="9" fill="${TERRA}">TELANGANA</text>
 
 <rect x="700" y="84" width="300" height="48" rx="24" fill="none" stroke="${TERRA}" stroke-width="2.5"/>
 <text x="850" y="114" font-family="${F}" font-size="18" font-weight="700" letter-spacing="2" fill="${TERRA}" text-anchor="middle">INVESTOR OPPORTUNITY</text>
@@ -74,7 +75,7 @@ ${ibrick(928,1168,70,40,"#E89A86","#F6E4DE",TERRA)}
 <text x="80" y="1330" font-family="${F}" font-size="22" font-weight="600" fill="${SAND}">Srikanth Kunta  ·  Ranga Reddy, Telangana  ·  The future of building is grown, not burned.</text>
 </svg>`;
 
-fs.writeFileSync("assets/terrablock_poster.svg", svg);
-sharp(Buffer.from(svg)).png().toFile("assets/terrablock_poster.png")
+fs.writeFileSync("assets/brick_industries_telangana_poster.svg", svg);
+sharp(Buffer.from(svg)).png().toFile("assets/brick_industries_telangana_poster.png")
   .then(()=>console.log("PNG written"))
   .catch(e=>{console.error(e);process.exit(1);});

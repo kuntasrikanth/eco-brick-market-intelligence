@@ -5,7 +5,7 @@
 
 ## 1. Executive Summary
 
-**Company:** TerraBlock (working name)
+**Company:** Brick Industries Telangana (working name)
 **Product:** Fully Machined Compressed Mud Interlocking Bricks (CSEB)
 **Location:** Ranga Reddy District, Telangana (Phase 1)
 **Model:** B2B manufacturing — sell direct to contractors, builders, and housing projects

@@ -1,10 +1,10 @@
-# Pitch Deck Narrative — TerraBlock
+# Pitch Deck Narrative — Brick Industries Telangana
 ### Slide-by-Slide Story | Investor / Bank / Partner Version
 
 ---
 
 ## Slide 1 — Title
-**TerraBlock**
+**Brick Industries Telangana**
 *Telangana's first machine-made mud interlocking brick factory*
 Ranga Reddy, Telangana | 2026
 

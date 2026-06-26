@@ -1,4 +1,4 @@
-# Execution Checklist — TerraBlock Launch
+# Execution Checklist — Brick Industries Telangana Launch
 ### From Idea to First Brick Sold
 
 ---

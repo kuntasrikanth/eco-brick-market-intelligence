@@ -7,7 +7,8 @@
   <rect x="108.18" y="124" width="15.64" height="8.399999999999999" rx="3" fill="#221C15" stroke="#C75D49" stroke-width="2"/>
   <circle cx="107.26" cy="112.6" r="5.1000000000000005" fill="#221C15"/>
   <circle cx="124.74" cy="112.6" r="5.1000000000000005" fill="#221C15"/>
-<text x="172" y="123" font-family="Helvetica Neue, Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="4" fill="#F3EDE1">TERRABLOCK</text>
+<text x="172" y="102" font-family="Helvetica Neue, Arial, sans-serif" font-size="33" font-weight="800" letter-spacing="1.5" fill="#F3EDE1">BRICK INDUSTRIES</text>
+<text x="173" y="136" font-family="Helvetica Neue, Arial, sans-serif" font-size="25" font-weight="800" letter-spacing="9" fill="#C75D49">TELANGANA</text>
 
 <rect x="700" y="84" width="300" height="48" rx="24" fill="none" stroke="#C75D49" stroke-width="2.5"/>
 <text x="850" y="114" font-family="Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#C75D49" text-anchor="middle">INVESTOR OPPORTUNITY</text>
