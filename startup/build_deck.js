@@ -87,7 +87,7 @@ async function main() {
   }
   s.addText("TERRABLOCK", { x: 0.6, y: 1.35, w: 8, h: 0.9, fontFace: HFONT, fontSize: 54, bold: true, color: WHITE, charSpacing: 2, margin: 0 });
   s.addShape(pres.shapes.RECTANGLE, { x: 0.62, y: 2.32, w: 0.55, h: 0.07, fill: { color: TERRA }, line: { type: "none" } });
-  s.addText("Telangana's first machine-made mud interlocking brick", { x: 0.6, y: 2.5, w: 8.6, h: 0.5, fontFace: HFONT, fontSize: 22, italic: true, color: SAND, margin: 0 });
+  s.addText("Telangana's First Mud Brick Industries", { x: 0.6, y: 2.5, w: 8.6, h: 0.5, fontFace: HFONT, fontSize: 22, italic: true, color: SAND, margin: 0 });
   s.addText([
     { text: "Compressed Stabilised Earth Blocks (CSEB)", options: { color: GOLD, bold: true } },
     { text: "   ·   Ranga Reddy District   ·   2026", options: { color: "BCAE9C" } },
